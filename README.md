@@ -49,7 +49,7 @@ For large values, the complementary error function is approximately equal to
 ## Usage
 
 ```javascript
-import erfcx from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcx@deno/mod.js';
+import erfcx from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcx@v0.0.1-deno/mod.js';
 ```
 
 #### erfcx( x )
@@ -92,7 +92,7 @@ var y = erfcx( NaN );
 
 ```javascript
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
-import erfcx from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcx@deno/mod.js';
+import erfcx from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcx@v0.0.1-deno/mod.js';
 
 var x = linspace( -30.0, 30.0, 100 );
 
