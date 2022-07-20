@@ -49,6 +49,11 @@ For large values, the complementary error function is approximately equal to
 ## Usage
 
 ```javascript
+import erfcx from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcx@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-erfcx/tags). For example,
+
+```javascript
 import erfcx from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcx@v0.0.1-esm/index.mjs';
 ```
 
@@ -97,7 +102,7 @@ var y = erfcx( NaN );
 <script type="module">
 
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@esm/index.mjs';
-import erfcx from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcx@v0.0.1-esm/index.mjs';
+import erfcx from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcx@esm/index.mjs';
 
 var x = linspace( -30.0, 30.0, 100 );
 
