@@ -49,6 +49,11 @@ For large values, the complementary error function is approximately equal to
 ## Usage
 
 ```javascript
+import erfcx from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcx@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-erfcx/tags). For example,
+
+```javascript
 import erfcx from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcx@v0.0.1-deno/mod.js';
 ```
 
@@ -92,7 +97,7 @@ var y = erfcx( NaN );
 
 ```javascript
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
-import erfcx from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcx@v0.0.1-deno/mod.js';
+import erfcx from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcx@deno/mod.js';
 
 var x = linspace( -30.0, 30.0, 100 );
 
