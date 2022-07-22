@@ -30,11 +30,21 @@ The scaled [complementary error function][complementary-error-function] is defin
 
 <!-- <equation class="equation" label="eq:scaled_complementary_error_function" align="center" raw="\operatorname{erfcx}(x) = e^{x^2} \operatorname{erfc}(x)" alt="Scaled complementary error function."> -->
 
+<div class="equation" align="center" data-raw-text="\operatorname{erfcx}(x) = e^{x^2} \operatorname{erfc}(x)" data-equation="eq:scaled_complementary_error_function">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@d97f372ed0bdcad1d7d373fad56a663ec94abe9e/lib/node_modules/@stdlib/math/base/special/erfcx/docs/img/equation_scaled_complementary_error_function.svg" alt="Scaled complementary error function.">
+    <br>
+</div>
+
 <!-- </equation> -->
 
-For large values, the complementary error function is approximately equal to
+For large values, the scaled [complementary error function][complementary-error-function] is approximately equal to
 
-<!-- <equation class="equation" label="eq:approximation-large-x" align="center" raw="\left( \frac{1}{\sqrt{\pi}} \right) \frac{1}{x}" alt="Approximation for large x"> -->
+<!-- <equation class="equation" label="eq:scaled_complementary_error_function_approximation_large_x" align="center" raw="\left( \frac{1}{\sqrt{\pi}} \right) \frac{1}{x}" alt="Approximation for large x"> -->
+
+<div class="equation" align="center" data-raw-text="\left( \frac{1}{\sqrt{\pi}} \right) \frac{1}{x}" data-equation="eq:scaled_complementary_error_function_approximation_large_x">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@ab78b6493866fa172404de2b5d087f050d7c8807/lib/node_modules/@stdlib/math/base/special/erfcx/docs/img/equation_scaled_complementary_error_function_approximation_large_x.svg" alt="Approximation for large x">
+    <br>
+</div>
 
 <!-- </equation> -->
 
@@ -42,14 +52,30 @@ For large values, the complementary error function is approximately equal to
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-erfcx
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import erfcx from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcx@esm/index.mjs';
+var erfcx = require( '@stdlib/math-base-special-erfcx' );
 ```
 
 #### erfcx( x )
@@ -90,14 +116,9 @@ var y = erfcx( NaN );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@esm/index.mjs';
-import erfcx from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcx@esm/index.mjs';
+```javascript
+var linspace = require( '@stdlib/array-base-linspace' );
+var erfcx = require( '@stdlib/math-base-special-erfcx' );
 
 var x = linspace( -30.0, 30.0, 100 );
 
@@ -105,10 +126,6 @@ var i;
 for ( i = 0; i < x.length; i++ ) {
     console.log( 'x: %d, erfcx(x): %d', x[ i ], erfcx( x[ i ] ) );
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -132,7 +149,7 @@ for ( i = 0; i < x.length; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
