@@ -159,11 +159,6 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
-## License
-
-See [LICENSE][stdlib-license].
-
-
 ## Copyright
 
 Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
@@ -206,8 +201,6 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [umd-url]: https://github.com/stdlib-js/math-base-special-erfcx/tree/umd
 [esm-url]: https://github.com/stdlib-js/math-base-special-erfcx/tree/esm
 [branches-url]: https://github.com/stdlib-js/math-base-special-erfcx/blob/main/branches.md
-
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-special-erfcx/main/LICENSE
 
 [complementary-error-function]: https://en.wikipedia.org/wiki/Error_function
 
