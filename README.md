@@ -30,10 +30,14 @@ The scaled [complementary error function][complementary-error-function] is defin
 
 <!-- <equation class="equation" label="eq:scaled_complementary_error_function" align="center" raw="\operatorname{erfcx}(x) = e^{x^2} \operatorname{erfc}(x)" alt="Scaled complementary error function."> -->
 
-<div class="equation" align="center" data-raw-text="\operatorname{erfcx}(x) = e^{x^2} \operatorname{erfc}(x)" data-equation="eq:scaled_complementary_error_function">
+```math
+\operatorname{erfcx}(x) = e^{x^2} \operatorname{erfc}(x)
+```
+
+<!-- <div class="equation" align="center" data-raw-text="\operatorname{erfcx}(x) = e^{x^2} \operatorname{erfc}(x)" data-equation="eq:scaled_complementary_error_function">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@d97f372ed0bdcad1d7d373fad56a663ec94abe9e/lib/node_modules/@stdlib/math/base/special/erfcx/docs/img/equation_scaled_complementary_error_function.svg" alt="Scaled complementary error function.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -41,10 +45,14 @@ For large values, the scaled [complementary error function][complementary-error-
 
 <!-- <equation class="equation" label="eq:scaled_complementary_error_function_approximation_large_x" align="center" raw="\left( \frac{1}{\sqrt{\pi}} \right) \frac{1}{x}" alt="Approximation for large x"> -->
 
-<div class="equation" align="center" data-raw-text="\left( \frac{1}{\sqrt{\pi}} \right) \frac{1}{x}" data-equation="eq:scaled_complementary_error_function_approximation_large_x">
+```math
+\left( \frac{1}{\sqrt{\pi}} \right) \frac{1}{x}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="\left( \frac{1}{\sqrt{\pi}} \right) \frac{1}{x}" data-equation="eq:scaled_complementary_error_function_approximation_large_x">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@ab78b6493866fa172404de2b5d087f050d7c8807/lib/node_modules/@stdlib/math/base/special/erfcx/docs/img/equation_scaled_complementary_error_function_approximation_large_x.svg" alt="Approximation for large x">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -188,7 +196,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
