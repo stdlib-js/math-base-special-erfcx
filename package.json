@@ -39,7 +39,8 @@
   "dependencies": {
     "@stdlib/constants-float64-pinf": "^0.1.0",
     "@stdlib/math-base-special-exp": "^0.1.0",
-    "@stdlib/math-base-special-floor": "^0.1.0"
+    "@stdlib/math-base-special-floor": "^0.1.0",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.0"
   },
   "devDependencies": {
     "@stdlib/array-base-linspace": "^0.0.3",
