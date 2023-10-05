@@ -35,12 +35,12 @@ var INV_SQRT_PI = 0.56418958354775628694807945156; // 1 / sqrt(pi)
 
 // FIXTURES //
 
-var mediumPositive = require( './../..xtures/medium_positive.json' );
-var smallPositive = require( './../..xtures/small_positive.json' );
-var smallNegative = require( './../..xtures/small_negative.json' );
-var mediumNegative = require( './../..xtures/medium_negative.json' );
-var largePositive = require( './../..xtures/large_positive.json' );
-var tiny = require( './../..xtures/tiny.json' );
+var mediumPositive = require( './../fixtures/medium_positive.json' );
+var smallPositive = require( './../fixtures/small_positive.json' );
+var smallNegative = require( './../fixtures/small_negative.json' );
+var mediumNegative = require( './../fixtures/medium_negative.json' );
+var largePositive = require( './../fixtures/large_positive.json' );
+var tiny = require( './../fixtures/tiny.json' );
 
 
 // TESTS //
