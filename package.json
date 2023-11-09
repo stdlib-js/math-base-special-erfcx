@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "@stdlib/array-base-linspace": "^0.1.0",
-    "@stdlib/bench": "^0.1.0",
+    "@stdlib/bench": "^0.2.0",
     "@stdlib/constants-float64-eps": "^0.1.1",
     "@stdlib/math-base-assert-is-nan": "^0.1.1",
     "@stdlib/math-base-special-abs": "^0.1.1",
