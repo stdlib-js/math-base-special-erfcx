@@ -78,7 +78,7 @@ For large values, the scaled [complementary error function][complementary-error-
 ## Usage
 
 ```javascript
-import erfcx from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcx@esm/index.mjs';
+import erfcx from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcx@v0.2.1-esm/index.mjs';
 ```
 
 #### erfcx( x )
@@ -126,7 +126,7 @@ var y = erfcx( NaN );
 <script type="module">
 
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@esm/index.mjs';
-import erfcx from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcx@esm/index.mjs';
+import erfcx from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcx@v0.2.1-esm/index.mjs';
 
 var x = linspace( -30.0, 30.0, 100 );
 
