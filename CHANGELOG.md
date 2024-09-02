@@ -2,6 +2,53 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2024-09-02)
+
+<section class="features">
+
+### Features
+
+-   [`67d2064`](https://github.com/stdlib-js/stdlib/commit/67d206479d7216260d585173d253b1cb48b118f6) - add C implementation for `@stdlib/math-base/special/erfcx`
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`67d2064`](https://github.com/stdlib-js/stdlib/commit/67d206479d7216260d585173d253b1cb48b118f6) - **feat:** add C implementation for `@stdlib/math-base/special/erfcx` _(by Ayaka, Athan Reines, Gunj Joshi, Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 4 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Ayaka
+-   Gunj Joshi
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-28)
