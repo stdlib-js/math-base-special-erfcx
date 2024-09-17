@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-08)
+## Unreleased (2024-09-17)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`65d1c5b`](https://github.com/stdlib-js/stdlib/commit/65d1c5be91c83d9eea3c73fec21abbeb592d434f) - **bench:** remove `f` suffix in C benchmark [(#2911)](https://github.com/stdlib-js/stdlib/pull/2911) _(by Gunj Joshi)_
 -   [`11e3050`](https://github.com/stdlib-js/stdlib/commit/11e3050a0ec978695f2d7d8655676445561be69a) - **chore:** update package meta data [(#2884)](https://github.com/stdlib-js/stdlib/pull/2884) _(by stdlib-bot, Athan Reines)_
 -   [`67d2064`](https://github.com/stdlib-js/stdlib/commit/67d206479d7216260d585173d253b1cb48b118f6) - **feat:** add C implementation for `@stdlib/math-base/special/erfcx` _(by Ayaka, Athan Reines, Gunj Joshi, Philipp Burckhardt)_
 
