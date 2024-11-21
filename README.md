@@ -71,32 +71,14 @@ For large values, the scaled [complementary error function][complementary-error-
 
 <!-- /.intro -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/math-base-special-erfcx
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var erfcx = require( '@stdlib/math-base-special-erfcx' );
+import erfcx from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcx@deno/mod.js';
 ```
 
 #### erfcx( x )
@@ -138,8 +120,8 @@ var y = erfcx( NaN );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var linspace = require( '@stdlib/array-base-linspace' );
-var erfcx = require( '@stdlib/math-base-special-erfcx' );
+import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
+import erfcx from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcx@deno/mod.js';
 
 var x = linspace( -30.0, 30.0, 100 );
 
@@ -155,91 +137,7 @@ for ( i = 0; i < x.length; i++ ) {
 
 <!-- C interface documentation. -->
 
-* * *
 
-<section class="c">
-
-## C APIs
-
-<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
-
-<section class="intro">
-
-</section>
-
-<!-- /.intro -->
-
-<!-- C usage documentation. -->
-
-<section class="usage">
-
-### Usage
-
-```c
-#include "stdlib/math/base/special/erfcx.h"
-```
-
-#### stdlib_base_erfcx( x )
-
-Evaluates the [scaled complementary error function][complementary-error-function].
-
-```c
-double y  = stdlib_base_erfcx( 0.0 );
-// returns 1.0
-
-y  = stdlib_base_erfcx( 1.0 );
-// returns ~0.4276
-```
-
-The function accepts the following arguments:
-
--   **x**: `[in] double` input value.
-
-```c
-double stdlib_base_erfcx( const double x );
-```
-
-</section>
-
-<!-- /.usage -->
-
-<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
-
-<section class="notes">
-
-</section>
-
-<!-- /.notes -->
-
-<!-- C API usage examples. -->
-
-<section class="examples">
-
-### Examples
-
-```c
-#include "stdlib/math/base/special/erfcx.h"
-#include <stdio.h>
-
-int main( void ) {
-    const double x[] = { 0.0, 0.22, 0.44, 0.67, 0.89, 1.11, 1.33, 1.56, 1.78, 2.0 };
-
-    double v;
-    int i;
-    for ( i = 0; i < 10; i++ ) {
-        v = stdlib_base_erfcx( x[ i ] );
-        printf( "x: %lf, erfcx(x): %lf\n", x[ i ], v );
-    }
-}
-```
-
-</section>
-
-<!-- /.examples -->
-
-</section>
-
-<!-- /.c -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -267,7 +165,7 @@ int main( void ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -327,13 +225,13 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/erfc]: https://github.com/stdlib-js/math-base-special-erfc
+[@stdlib/math/base/special/erfc]: https://github.com/stdlib-js/math-base-special-erfc/tree/deno
 
-[@stdlib/math/base/special/erfcinv]: https://github.com/stdlib-js/math-base-special-erfcinv
+[@stdlib/math/base/special/erfcinv]: https://github.com/stdlib-js/math-base-special-erfcinv/tree/deno
 
-[@stdlib/math/base/special/erf]: https://github.com/stdlib-js/math-base-special-erf
+[@stdlib/math/base/special/erf]: https://github.com/stdlib-js/math-base-special-erf/tree/deno
 
-[@stdlib/math/base/special/erfinv]: https://github.com/stdlib-js/math-base-special-erfinv
+[@stdlib/math/base/special/erfinv]: https://github.com/stdlib-js/math-base-special-erfinv/tree/deno
 
 <!-- </related-links> -->
 
