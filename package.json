@@ -45,7 +45,8 @@
     "@stdlib/math-base-napi-unary": "^0.2.3",
     "@stdlib/math-base-special-exp": "^0.2.4",
     "@stdlib/math-base-special-floor": "^0.2.3",
-    "@stdlib/utils-library-manifest": "^0.2.2"
+    "@stdlib/utils-library-manifest": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/console-log-each-map": "github:stdlib-js/console-log-each-map#main",
