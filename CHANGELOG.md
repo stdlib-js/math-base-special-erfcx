@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-24)
+## Unreleased (2025-03-25)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`2e1dd43`](https://github.com/stdlib-js/stdlib/commit/2e1dd438de6a412fcb94d486933a61709fd250ab) - **chore:** replace manual `for` loop in examples [(#6351)](https://github.com/stdlib-js/stdlib/pull/6351) _(by Harsh)_
 -   [`e0d7522`](https://github.com/stdlib-js/stdlib/commit/e0d7522fc5f65cbb7e949eeed509a45b208008ec) - **bench:** update random value generation [(#6327)](https://github.com/stdlib-js/stdlib/pull/6327) _(by Harsh, Athan Reines)_
 -   [`961d039`](https://github.com/stdlib-js/stdlib/commit/961d03929b8b1b9c5221dc36cb21f0e8194f06c2) - **chore:** use relative path to load package.json file _(by Philipp Burckhardt)_
 -   [`15546a9`](https://github.com/stdlib-js/stdlib/commit/15546a92fb2f48b6c780fdf2dd0460340cda8830) - **docs:** update function name in header of C section _(by Philipp Burckhardt)_
