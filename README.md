@@ -78,7 +78,7 @@ For large values, the scaled [complementary error function][complementary-error-
 ## Usage
 
 ```javascript
-import erfcx from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcx@deno/mod.js';
+import erfcx from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcx@v0.3.1-deno/mod.js';
 ```
 
 #### erfcx( x )
@@ -122,7 +122,7 @@ var y = erfcx( NaN );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import erfcx from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcx@deno/mod.js';
+import erfcx from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcx@v0.3.1-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
